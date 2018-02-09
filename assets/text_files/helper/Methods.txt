@@ -1,0 +1,32 @@
+* Collection of statements that are grouped together to perform an operation
+
+Method header:
+Syntax: <access modifier(s)> return-type methodName(parameter-list) {...}
+
+Method signature:
+* Combination of the method name and the parameter list
+* Variables defined in the method header are known as formal parameters
+* When a method is invoked, you pass a value to the parameter
+    - This value is referred to as actual parameter or argument
+* May return a type, which is the data type of the value that the method returns
+    - If the method does not return a value, the return-type is set to void
+
+Overloading methods:
+* Methods can be overloaded by modifying the formal parameter list
+    - Change either/all:
+        -> # of parameters
+        -> Data type of parameters
+        -> Order of parameters
+* Methods cannot be overloaded by changing the return-type of the method
+
+Scope:
+* Local variable is a local variable defined inside a method
+* Scope is the part of the program where the variable can be referenced
+* Scope of local variable starts from its declaration and continues to the end of the block that contains the variable
+* Local variable must be declared before it can be used
+* Local variables of the same name can be declared many times, just not within the same block/scope
+
+Benefits of methods:
+* Write once and reuse it anywhere
+* Information hiding
+* Reduce complexity

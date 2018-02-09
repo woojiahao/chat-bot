@@ -1,0 +1,46 @@
+Identifiers:
+* An identifier is a sequence of characters that consist of letters, digits, underscores (_), and dollar signs ($).
+* An identifier must start with a letter, an underscore (_), or a dollar sign ($). It cannot start with a digit.
+* An identifier cannot be a reserved word.
+* An identifier cannot be true, false, or null.
+* An identifier can be of any length.
+* An identifier must not have any spaces.
+
+Example:
+1. areaOfSquare
+2. _name
+3. name_of_student
+4. $identifier
+
+Variables:
+* Declaring a variable tells compiler the name of the variable and the type of data it stores.
+* Declare a variable only once.
+
+Syntax: <datatype> variablename;
+
+Example: double radius;
+
+Assigning values to variables:
+* A variable must be declared before you can assign a value to it.
+* After a variable is declared, you can assign a value to it using the assignment operator (=).
+* The datatype must be compatible with the value assigned.
+
+Example: radius = 14.6;
+
+Initialization:
+* Declare and assign the value to a new variable on the same line
+
+Example: int x = 15;
+
+Constants:
+* Represents permanent data that never changes (eg ∏ or pi = 3.14159)
+* 3 benefits:
+    - Don’t have to repeatedly type same value
+    - Makes program easier to maintain (Value assigned in a single location)
+    - Makes program readable
+* The final keyword ensures that the value cannot be altered/changed.
+
+Syntax: final <datatype> CONSTANTNAME = value;
+
+Example: final double PI = 3.14159;
+

@@ -1,0 +1,11 @@
+Implicit casting:
+* You can assign a value to a numeric variable that supports a wider range of values (implicit casting).
+
+Example: double x = 3;
+
+Explicit casting:
+* However, you cannot assign a value to a numeric variable with smaller range of values unless you perform type casting (explicit casting).
+* Explicit Casting may result in loss of numerical precision.
+
+Example: int y = (int) 3.8;
+

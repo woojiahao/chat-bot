@@ -1,0 +1,18 @@
+** Note **
+** So long as a sentence contains one of these commands, the command will execute **
+
+Commands:
+joke -> Tell joke
+quote -> Tell quote
+roll/dice -> Roll a dice
+time -> Get the current time
+compliment -> Get complimented
+javahelp -> Java syntax helper
+letsplay -> Play game
+
+Chat:
+hi/hello/hey/greetings
+seeyou/bye
+thankyou/thank
+letschat
+howareyou

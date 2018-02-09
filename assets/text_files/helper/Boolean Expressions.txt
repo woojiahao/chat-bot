@@ -1,0 +1,22 @@
+AND (&&):
+Expression:       Result:
+true  &&  true    true
+true  &&  false   false
+false &&  false   false
+
+OR (||):
+Expression:       Result:
+true  ||  true    true
+true  ||  false   true
+false ||  false   false
+
+XOR (^):
+Expression:       Result:
+true  ^  true     false
+true  ^  false    true
+false ^  false    false
+
+NOT (!):
+Expression:       Result:
+!true             false
+!false            true

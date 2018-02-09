@@ -1,0 +1,26 @@
+* A data structre that represents a collection of the same type of data
+* 0-based index system, first index is 0, followed by 1
+* The end of the array is array.length - 1
+* Once created, the size of an array is fixed and it cannot be changed
+
+Declaring arrays:
+Syntax: <datatype>[] arrayRefVariable = new <datatype>[arraySize]
+
+Example: double[] myList = new double[10];
+
+Referring to an index:
+arrayRefVar[index]
+
+Default values:
+Numeric primitive data types -> 0/0.0
+char                         -> '\u0000'
+boolean                      -> false
+
+Array Initializers:
+Example: double[] myList = {1.2, 1.3, 1.4, 1.5};
+
+Looping through an array:
+Syntax:
+for (int index = 0; index < array.length; index++) {
+    statement(s);
+}

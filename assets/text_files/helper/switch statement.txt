@@ -1,0 +1,53 @@
+* Enables you to select from multiple choices based on a set of fixed values for a given expression
+* Must have a value of char, byte, short, int or String in the parentheses
+* value1 - valueN must have the same data type as the switch-expression
+
+switch (switch_expression) {
+	case value1:
+		// statements
+		break; // optional
+
+	case value2:
+		// statements 
+		break; // optional
+			. 
+			.
+			.
+			.
+	case valueN:
+		// statements
+		break; // optional
+
+	default: // optional
+		//statements
+}
+
+Note:
+If there is no break statement between cases, the statements in the following cases will execute as well
+The default statement only executes when all other cases do match the expression
+
+Example:
+char ch = 'x';
+switch (ch) {
+	case 'a':
+	case 'A':
+		.
+		.
+		.
+		.
+	case 'w':
+	case 'W':
+		System.out.println("ch = " + ch);
+		break;
+
+	case 'x':
+	case 'X':
+		System.out.println("ch = " + ch);
+		break;
+
+	default:
+		System.out.println("ch is not an alphabet");
+}
+
+Result:
+ch = x

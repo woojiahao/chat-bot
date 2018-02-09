@@ -1,0 +1,44 @@
+Object:
+* Object represents an entity in the real world that can be distinctly identified
+* Every object has a unique identity, state, and behaviors
+    - State refers to a set of data fields with their current values
+    - Behavior is defined by a set of methods
+
+Classes:
+* Constructs that define objects of the same type
+* Use variables to define data fields and methods to define behaviors
+* Provides constructors which are invoked to construct objects of that class
+
+Syntax: <access-modifiers> class className {...}
+
+Example:
+public class Example {...}
+
+Constructors:
+* Special kind of methods that are invoked to construct objects
+* Must have the same name as the class itself
+* Does not have a return type
+* Used to initialize objects
+* Invoked using the new operator when an object is created
+* If a class does not have any constructors explicitly defined, a no-argument constructor is created
+    - Also known as a default constructor
+
+Creating objects:
+Syntax: className objectRefVariable = new className(arguments);
+
+Example:
+Circle circle1 = new Circle(3.4);
+
+Accessing properties of an object:
+Syntax:
+objectRefVariable.methodName(arguments);
+objectRefVariable.variableName = value;
+
+Getter and Setter methods:
+* Used to read and modify private properties
+
+Static:
+* Static variables are shared by all the instances of the class
+* Static methods can be called without creating an instance of the class
+
+Example: Math.PI
